@@ -1,0 +1,126 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color:whitesmoke;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    height: 35rem;
+    margin-top: 10rem;
+    text-align: left;
+    margin-left: 15rem;
+    margin-right: 5rem;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+#img1{
+    text-align: left;
+    margin-left: 2rem;
+    margin: 2rem;
+}
+#img2{
+    text-align: left;
+    margin-left: 2rem;
+    margin: 2rem;
+}
+#img3{
+    text-align: left;
+    margin-left: 2rem;
+    margin: 2rem;
+}
+.sedan{
+    background-color: rgb(186, 127, 17);
+    font-size: 8px;
+    color: white;
+    padding-left: 3rem;
+
+    
+    
+
+    
+}
+.suv{
+    background-color:rgb(18, 92, 110);
+    font-size:8px;
+    position: relative;
+    display: flexbox;
+    color: white;
+    margin-right: 14rem;
+    padding-left: 3rem;
+    
+    
+    
+}
+.luxury{
+    background-color: rgb(2, 54, 37);
+    font-size: 8px;
+    color: white;
+    position: relative;
+    right: 14rem;
+    padding: 15px;
+    padding-left:3rem ;
+    
+
+
+}
+h1{
+    font-size: 30px;
+    font-family: calibri, 
+}
+p{
+
+    font-size: 20px;
+    margin-top: 2rem;
+    margin-left: 1rem;
+}
+.btn{
+    padding: 15px;
+    width: 10rem;
+    border-radius: 15px;
+    text-align: center;
+    font-weight: 400;
+    margin-top: 25px;
+    margin-left: 5rem;
+    position: relative;
+    margin-top: 8rem;
+    color: rgb(186, 127, 17);
+    cursor: pointer;
+    
+}
+.btn1{
+    padding: 15px;
+    width: 10rem;
+    font-weight: 400;
+    border-radius: 15px;
+    text-align: center;
+    margin-top: 25px;
+    margin-left: 5rem;
+    position: relative;
+    margin-top: 9rem;
+    color: rgb(18, 92, 110);
+    cursor: pointer;
+    
+}
+.btn2{
+    padding: 15px;
+    width: 10rem;
+    font-weight: 400;
+    border: 1px solid rgb(2, 54, 37);
+    border-radius: 15px;
+    text-align: center;
+    margin-top: 25px;
+    margin-left: 1rem;
+    position: relative;
+    margin-top: 6rem;
+    cursor: pointer;
+    color: rgb(2, 54, 37);
+
+    
+}
+.icon{
+    display: flex;
+
+}
